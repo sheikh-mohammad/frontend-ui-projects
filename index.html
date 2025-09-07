@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="upperbar" class="d-flex justify-content-around py-2 mb-3">
+        <div class="left-upperbar d-flex gap-4">
+            <div class="left-upperbar-item d-flex gap-2"><i class="fa-solid fa-envelope-open"></i> info@yourdomain.com
+            </div>
+            <div class="left-upperbar-item d-flex gap-2"><i class="fa-solid fa-phone"></i> 1+ (234) 5678 9101</div>
+        </div>
+        <div class="right-upperbar d-flex gap-4">
+            <div class="right-upperbar-item d-flex gap-2"><i class="fa-brands fa-twitter"></i> Twitter</div>
+            <div class="right-upperbar-item d-flex gap-2"><i class="fa-brands fa-facebook-f"></i> Facebook</div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg py-2 sticky-top bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bolder text-uppercase text-primary fs-2" href="#">Depot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testinomials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section mt-3 d-flex justify-content-center flex-column align-items-center text-center">
+        <h1 class="text-white text-uppercase z-1">Transportations & Logistics</h1>
+        <p class="text-white z-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem eius
+            eligendi esse quod?</p>
+        <div class="input-box z-1 gap-2 flex-wrap d-flex justify-content-center align-items-center">
+            <input type="text" name="track" id="track" placeholder="Your Tracking Number"
+                class="ps-3 py-3 rounded-1 border-0" style="padding-right: 100px;">
+            <button class="btn btn-primary px-4 py-3">Track Now</button>
+        </div>
+    </div>
+
+    <div class="views-section">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap gap-4">
+            <div class="card border-0" style="width: 18rem;">
+                <img src="assests/images/view-1.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body mt-3">
+                    <h5 class="card-title text-primary fs-5 text-center text-uppercase">Truck Insurance</h5>
+                    <p class="card-text text-center text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Beatae distinctio laudantium nulla eos numquam incidunt!.</p>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;">
+                <img src="assests/images/view-2.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body mt-3">
+                    <h5 class="card-title text-primary fs-5 text-center text-uppercase">Plane Transportation</h5>
+                    <p class="card-text text-center text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Beatae distinctio laudantium nulla eos numquam incidunt!.</p>
+                </div>
+            </div>
+            <div class="card border-0" style="width: 18rem;">
+                <img src="assests/images/view-3.png" class="card-img-top rounded-0" alt="...">
+                <div class="card-body mt-3">
+                    <h5 class="card-title text-primary fs-5 text-center text-uppercase">Sea & Ear Freight</h5>
+                    <p class="card-text text-center text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Beatae distinctio laudantium nulla eos numquam incidunt!.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-section">
+        <div class="services-head"></div>
+        <div class="services-body">
+            <div class="card text-center" style="width: 18rem;">
+                <i class="fa-solid fa-ship"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-primary fs-5 text-center text-uppercase">Sea Freight</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
