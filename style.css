@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Lato";
+    src: url(assests/fonts/Lato-Regular.ttf);
+}
+
+body {
+    font-family: "Lato" !important;
+}
+
+.top-nav {
+    background-color: #33A137;
+}
+
+.top-nav .dropdown-item:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.search-box input {
+    outline: none;
+    border: 1px solid white;
+}
+
+.search-box input::placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+.hero-section {
+    height: 85vh;
+    background-image: url(assests/images/hero/image.png);
+}
+
+.booking-area {
+    background-color: rgba(34, 34, 34, .85);
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .right-top-nav {
+        display: none !important;
+    }
+}
