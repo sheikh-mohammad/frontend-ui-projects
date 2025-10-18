@@ -5,6 +5,11 @@
 
 body {
     font-family: "Poppins";
+    overflow-x: hidden !important;
+}
+
+html{
+    overflow-x: hidden !important;
 }
 
 :root {
@@ -326,7 +331,7 @@ nav .book:hover {
 
 .contact:after {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     content: "";
     height: 100%;
     width: 100%;
@@ -387,4 +392,8 @@ footer {
 
 .newsletter-btn:hover {
     background-color: rgba(42, 232, 232, 0.8);
+}
+
+.contact button{
+    background-color: var(--primary);
 }
