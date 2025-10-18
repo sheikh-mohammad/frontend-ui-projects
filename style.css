@@ -7,6 +7,20 @@ body{
     font-family: "Poppins";
 }
 
+.details .email i, .details .phone i{
+    color: #1CC3B2 !important;
+}
+
+.details .phone:hover, .details .email:hover{
+    color: #afb4bf !important;
+    transition: 500ms;
+}
+
 .top-bar{
     background-color: #0E2737;
+}
+
+.icons i:hover{
+    transition: 500ms;
+    color: #1CC3B2 !important;
 }
