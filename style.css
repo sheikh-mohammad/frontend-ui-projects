@@ -3,58 +3,60 @@
     src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
-body{
+body {
     font-family: "Poppins";
 }
 
-:root{
+:root {
     --primary: #1CC3B2;
     --secondary: #2A303B;
 }
 
-.details .email i, .details .phone i{
+.details .email i,
+.details .phone i {
     color: var(--primary) !important;
 }
 
-.details .phone:hover, .details .email:hover{
+.details .phone:hover,
+.details .email:hover {
     color: #afb4bf !important;
     transition: 500ms;
 }
 
-.top-bar{
+.top-bar {
     background-color: var(--secondary);
 }
 
-.icons i:hover{
+.icons i:hover {
     transition: 500ms;
     color: var(--primary) !important;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: transparent !important;
     color: var(--primary);
     transition: 500ms;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     width: 200px;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
     transition: 500ms;
 }
 
-nav .book{
+nav .book {
     background-color: var(--primary);
 }
 
-nav .book:hover{
+nav .book:hover {
     background-color: var(--secondary);
 }
 
-.hero-section{
+.hero-section {
     height: 100vh;
     position: relative;
 }
@@ -73,4 +75,23 @@ nav .book:hover{
     object-fit: cover;
     position: relative;
     z-index: 0;
+}
+
+.hero-section::after {
+    background-color: rgba(14, 39, 55, 0.7);
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero-cont button{
+    border: 2px solid var(--primary);
+}
+
+.hero-cont button:hover{
+    background-color: var(--primary);
+    transition: 500ms;
 }
