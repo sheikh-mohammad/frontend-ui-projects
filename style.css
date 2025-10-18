@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+body{
+    font-family: "Poppins";
+}
+
 .top-bar{
     background-color: #0E2737;
 }
