@@ -273,3 +273,13 @@ nav .book:hover {
     display: inline-block;
     cursor: pointer;
 }
+
+.project-slide{
+    width: 450px;
+    height: 800px;
+    border-radius: 8px;
+}
+
+.carousel-item::after{
+    background-color: transparent !important;
+}
