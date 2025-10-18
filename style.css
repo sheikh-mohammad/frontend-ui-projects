@@ -274,12 +274,29 @@ nav .book:hover {
     cursor: pointer;
 }
 
-.project-slide{
+.project-slide {
+    position: relative;
     width: 450px;
     height: 800px;
+    overflow: hidden;
     border-radius: 8px;
 }
 
-.carousel-item::after{
+.carousel-item::after {
     background-color: transparent !important;
+}
+
+.project-slide-cont {
+    background-color: #1cc3b2;
+    position: absolute;
+    bottom: -280px;
+}
+
+.project-slide:hover .project-slide-cont{
+    bottom: 0;
+    transition: 500ms;
+}
+
+.discover {
+    background-color: #0E2737;
 }
