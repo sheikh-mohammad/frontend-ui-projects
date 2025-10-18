@@ -128,3 +128,12 @@ nav .book:hover {
     width: 215px;
     height: 350px;
 }
+
+.service-item{
+    box-shadow: rgba(20, 20, 20, 0.05) 0px 2px 14px 5px;
+}
+
+.service-item:hover{
+    color: var(--primary);
+    transition: 500ms;
+}
