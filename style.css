@@ -7,8 +7,13 @@ body{
     font-family: "Poppins";
 }
 
+:root{
+    --primary: #1CC3B2;
+    --secondary: #2A303B;
+}
+
 .details .email i, .details .phone i{
-    color: #1CC3B2 !important;
+    color: var(--primary) !important;
 }
 
 .details .phone:hover, .details .email:hover{
@@ -17,10 +22,34 @@ body{
 }
 
 .top-bar{
-    background-color: #0E2737;
+    background-color: var(--secondary);
 }
 
 .icons i:hover{
     transition: 500ms;
-    color: #1CC3B2 !important;
+    color: var(--primary) !important;
+}
+
+.dropdown-item:hover{
+    background-color: transparent !important;
+    color: var(--primary);
+    transition: 500ms;
+}
+
+.dropdown-menu{
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    width: 200px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: 500ms;
+}
+
+nav .book{
+    background-color: var(--primary);
+}
+
+nav .book:hover{
+    background-color: var(--secondary);
 }
