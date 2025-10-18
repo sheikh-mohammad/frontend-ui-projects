@@ -113,3 +113,18 @@ nav .book:hover {
     transition: 500ms;
     box-shadow: 0 2px 20px 4px rgba(172, 172, 172, 0.5);
 }
+
+.about-left-top-img, .about-left-bottom-img{
+    width: 215px;
+    height: 170px;
+}
+
+.about-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-right-img{
+    width: 215px;
+    height: 350px;
+}
