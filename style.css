@@ -292,7 +292,7 @@ nav .book:hover {
     bottom: -280px;
 }
 
-.project-slide:hover .project-slide-cont{
+.project-slide:hover .project-slide-cont {
     bottom: 0;
     transition: 500ms;
 }
@@ -310,7 +310,81 @@ nav .book:hover {
     color: var(--primary);
 }
 
-.blog-body .card:hover h5{
+.blog-body .card:hover h5 {
     color: var(--primary);
     transition: 500ms;
+}
+
+.contact {
+    height: 180px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.contact:after {
+    position: absolute;
+    z-index: 3;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(14, 39, 55, 0.7);
+    transition: 500ms;
+}
+
+footer {
+    background-color: #0E2737;
+    color: white;
+}
+
+.footer-link-item a {
+    color: #789DA6;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-link-item a:hover {
+    color: #2AE8E8;
+}
+
+.footer-link-item .fa-angle-right {
+    color: #2AE8E8;
+    margin-right: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.newsletter-input {
+    background-color: var(--roberto-input-bg);
+    border: none;
+    color: var(--roberto-light);
+    padding-right: 3.5rem;
+}
+
+.newsletter-input::placeholder {
+    color: var(--roberto-muted);
+    opacity: 0.7;
+}
+
+.newsletter-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--roberto-accent);
+    color: var(--roberto-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.newsletter-btn:hover {
+    background-color: rgba(42, 232, 232, 0.8);
 }
