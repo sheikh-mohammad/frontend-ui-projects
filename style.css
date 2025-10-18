@@ -95,3 +95,21 @@ nav .book:hover {
     background-color: var(--primary);
     transition: 500ms;
 }
+
+.booking-section{
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    border-radius: 8px;
+    position: relative;
+    top: -40px;
+}
+
+.booking-section button{
+    background-color: var(--primary);
+}
+
+.booking-section button:hover{
+    background-color: white;
+    color: var(--primary) !important;
+    transition: 500ms;
+    box-shadow: 0 2px 20px 4px rgba(172, 172, 172, 0.5);
+}

@@ -109,29 +109,58 @@
                 </div>
             </div>
         </div>
-        <div class="hero-cont d-flex justify-content-center flex-column gap-3 position-absolute top-50 start-50 translate-middle-x w-100 z-2 align-items-center">
+        <div
+            class="hero-cont d-flex justify-content-center flex-column gap-3 position-absolute top-50 start-50 translate-middle-x w-100 z-2 align-items-center">
             <span class="fs-6 fw-bold text-center text-uppercase text-white">Hotels & Resort</span>
             <h1 style="font-size: 70px;" class="text-white text-center">Welcome to Roberto</h1>
             <button class="btn rounded-0 px-5 py-3 text-white">Discover Now</button>
         </div>
     </div>
 
-    <div class="booking-section d-flex justify-content-center align-items-center gap-4 position-absolute start-50 translate-middle-x w-75 z-3 p-4 bg-white">
+    <div
+        class="booking-section py-5 d-flex justify-content-center align-items-center gap-4 mx-auto w-75 z-3 px-4 bg-white">
         <div class="check-in">
             <h6 class="fw-bold">Check In</h6>
-            <input type="date" class="form-control rounded-0 small">
+            <input type="date" class="form-control rounded-1 small">
         </div>
         <div class="check-out">
             <h6 class="fw-bold">Check Out</h6>
-            <input type="date" class="form-control rounded-0 small">
+            <input type="date" class="form-control rounded-1 small">
         </div>
         <div class="room">
-            <h6>Room</h6>
-            
+            <h6 class="fw-bold">Room</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
         </div>
-        <div class="adult"></div>
-        <div class="children"></div>
-        
+        <div class="adult">
+            <h6 class="fw-bold">Adult</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
+        </div>
+        <div class="children">
+            <h6 class="fw-bold">Children</h6>
+            <select name="room" id="room-select" class="form-control rounded-1 small">
+                <option value="default" selected>01</option>
+                <option value="single">02</option>
+                <option value="double">03</option>
+                <option value="suite">04</option>
+                <option value="family">05</option>
+                <option value="family">06</option>
+            </select>
+        </div>
+        <button class="btn text-white small rounded-0 px-5 py-2">Check Availibility</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
