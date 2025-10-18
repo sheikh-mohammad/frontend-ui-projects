@@ -53,3 +53,24 @@ nav .book{
 nav .book:hover{
     background-color: var(--secondary);
 }
+
+.hero-section{
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.3);
+}
+
+.hero-section .carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
