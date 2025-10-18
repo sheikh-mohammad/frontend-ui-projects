@@ -300,3 +300,17 @@ nav .book:hover {
 .discover {
     background-color: #0E2737;
 }
+
+.blog-body .card:hover {
+    transform: translateY(-10px);
+    transition: 500ms;
+}
+
+.blog-body .card i {
+    color: var(--primary);
+}
+
+.blog-body .card:hover h5{
+    color: var(--primary);
+    transition: 500ms;
+}
