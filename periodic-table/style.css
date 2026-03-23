@@ -1,0 +1,111 @@
+*{
+    font-family: 'Arial';
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    font-size: 500%;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+#outer{
+    width: 62%;    
+}
+
+table{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+td{
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+
+}
+
+
+
+/* Elements Classes */
+.orange{
+    color: #068B3A;
+    background-color: #FF8E64;
+}
+
+
+.brown{
+    background-color: #D0AF2C;
+}
+
+.pink{
+    background-color: #E491E4;
+}
+
+.peach{
+    color: #068B3A;
+    background-color: #F5EAC3;
+}
+
+.sky{
+    background-color: #B6E9EF;
+}
+
+.grey{
+    background-color: #D7E3F5;
+    color: #068B3A;
+}
+
+.green{
+    background-color: #BCF7B1;
+}
+
+.yellow{
+    background-color: #FFF4A0;
+}
+
+.chocolate{
+    background-color: #FDEAED;
+}
+
+
+
+
+
+/* Other Styles */
+.black{
+        color: black;
+}
+
+.blue{
+    color: #0000FF;
+}
+
+.dark{
+    color: #A52A2A;
+}
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 546px) {
+    table{
+        width: 10%;
+    }
+    td{
+        width: 10%;
+    }
+    h1{
+        font-size: 200%;
+    }
+}
