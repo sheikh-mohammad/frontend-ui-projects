@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Lato";
+    src: url(assests/fonts/Lato-Regular.ttf);
+}
+
+body {
+    font-family: "Lato" !important;
+}
+
+:root{
+    --primary: #33A137;
+}
+
+.top-nav {
+    background-color: var(--primary);
+}
+
+.top-nav .dropdown-item:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.search-box input {
+    outline: none;
+    border: 1px solid white;
+}
+
+.search-box input::placeholder {
+    font-size: 13px;
+    color: white;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url(assests/images/hero/image.png);
+}
+
+.booking-area {
+    background-color: rgba(34, 34, 34, .85);
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.booking-area .legend{
+    font-size: 10px;
+}
+
+.location-box input{
+    outline: none;
+}
+
+.booking-area button{
+    background-color: var(--primary);
+}
+
+.booking-area button:hover{
+    background-color: #2B892F;
+}
+
+.property{
+    width: 400px;
+}
+
+.properties{
+    padding: 80px 0px;
+}
+
+.explore{
+    width: 310px;
+}
+
+.explore .img{
+    width: 92px;
+    height: 92px;
+}
+
+.agencies-section{
+    padding: 120px 0px;
+}
+
+.projects-section{
+    background-color: #E6F1FC;
+}
+
+@media screen and (max-width: 400px) {
+    .right-top-nav {
+        display: none !important;
+    }
+}
