@@ -15,7 +15,7 @@ google-no-internet-page/
 │   └── details.html        # Expanded details view with troubleshooting steps
 ├── img/
 │   └── sad.png             # Sad tab icon (Chrome's dinosaur alternative)
-└── QWEN.md                 # This context file
+└── README.md               # This file
 ```
 
 ## Key Files

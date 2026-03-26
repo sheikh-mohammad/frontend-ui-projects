@@ -50,6 +50,7 @@ Then navigate to `http://localhost:8000`
 depot-web/
 ├── index.html              # Main HTML document
 ├── style.css               # Custom CSS styles
+├── README.md               # This file
 └── assests/                # Note: typo in folder name (should be "assets")
     ├── fonts/
     │   └── Raleway-Regular.ttf
