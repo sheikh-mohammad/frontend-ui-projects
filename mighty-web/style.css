@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish" !important;
+}
+
+header {
+    background-image: url(assets/images/hero.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+::selection {
+    background-color: black !important;
+    color: white !important;
+}
+
+.hero {
+    height: calc(100vh - 50px);
+}
+
+.about-side-1 .btn {
+    background-color: #01D28E;
+}
+
+.about-side-2 img {
+    width: 100%;
+}
+
+.green {
+    color: #01D28E;
+}
+
+.offcanvas-header i {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.offcanvas {
+    box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas-header i:hover {
+    color: #CED4DA !important;
+}
+
+.offcanvas-backdrop.show {
+  background-color: transparent !important;
+}
+
+.about-section {
+    padding: 80px 0px;
+}
+
+.services-section {
+    background-color: #F6F5F5;
+    padding: 80px 0px;
+}
+
+.works-section {
+    padding: 80px 0px;
+}
+
+.progress-bar {
+    background-color: #01D28E;
+    height: 8px;
+}
+
+.progress {
+    height: 8px;
+}
+
+.service-cards .card {
+    transition: .3s all ease;
+}
+
+.service-cards .card:hover {
+    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+.work-card::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.work-card:hover {}
+
+.work-card {
+    width: 350px;
+    height: 200px;
+    position: relative;
+}
