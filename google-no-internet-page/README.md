@@ -6,6 +6,11 @@ This is a **static HTML/CSS frontend project** that recreates Google Chrome's "N
 
 **Purpose:** A UI clone/replica of Chrome's offline error page for educational or demonstration purposes.
 
+## Deployment
+
+- [GitHub Repo](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/google-no-internet-page)
+- [Live URL](https://sheikh-mohammad.github.io/frontend-ui-projects/google-no-internet-page)
+
 ## Project Structure
 
 ```
@@ -20,11 +25,11 @@ google-no-internet-page/
 
 ## Key Files
 
-| File | Description |
-|------|-------------|
-| `index.html` | Primary error page showing the basic "No Internet" message with quick action links (Reload, Details) |
-| `pages/details.html` | Detailed troubleshooting page with expanded network diagnostic suggestions |
-| `img/sad.png` | Sad face icon displayed on the error pages |
+| File                 | Description                                                                                          |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| `index.html`         | Primary error page showing the basic "No Internet" message with quick action links (Reload, Details) |
+| `pages/details.html` | Detailed troubleshooting page with expanded network diagnostic suggestions                           |
+| `img/sad.png`        | Sad face icon displayed on the error pages                                                           |
 
 ## Technologies Used
 
@@ -40,16 +45,18 @@ This is a **purely static project** with no build process required.
 
 1. Open `index.html` directly in any web browser
 2. Or serve it locally:
+
    ```bash
    # Using Python
    python -m http.server 8000
-   
+
    # Using Node.js (npx)
    npx serve
-   
+
    # Using PHP
    php -S localhost:8000
    ```
+
 3. Navigate to `http://localhost:8000` in your browser
 
 ## Development Notes
@@ -74,6 +81,7 @@ This is a **purely static project** with no build process required.
 ## Testing Practices
 
 No automated testing framework is configured. Testing is done manually by:
+
 1. Opening the HTML files in a browser
 2. Verifying visual appearance matches Chrome's error page
 3. Testing link navigation between pages

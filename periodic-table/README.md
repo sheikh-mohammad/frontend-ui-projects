@@ -5,15 +5,22 @@
 A static HTML/CSS web application that displays **The Periodic Table of Elements**. This is a frontend-only UI project that renders all 118 chemical elements in their traditional periodic table layout, including the lanthanide and actinide series.
 
 ### Technologies
+
 - **HTML5** - Semantic structure using tables for element grid layout
 - **CSS3** - Styling with color-coded element categories and responsive design
 
 ### Features
+
 - Complete periodic table with all 118 elements (H to Og)
 - Color-coded element categories (alkali metals, noble gases, transition metals, etc.)
 - Two-table layout: main table + separate lanthanide/actinide rows
 - Responsive design for mobile devices (breakpoint at 546px)
 - Element cells display atomic number and symbol
+
+### Deployment
+
+- [GitHub Repo](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/periodic-table)
+- [Live URL](https://sheikh-mohammad.github.io/frontend-ui-projects/periodic-table)
 
 ## Project Structure
 
@@ -31,48 +38,53 @@ This is a **static website** with no build process required.
 ### To Run Locally
 
 1. **Direct file open**: Open `index.html` in any web browser
+
    ```
    # Windows
    start index.html
-   
+
    # Or drag-drop index.html into browser
    ```
 
 2. **Using a local server** (recommended for proper testing):
+
    ```
    # Python 3
    python -m http.server 8000
-   
+
    # Node.js (if npx available)
    npx serve .
-   
+
    # Then open http://localhost:8000
    ```
 
 ## Development Conventions
 
 ### Code Style
+
 - **HTML**: Inline styles used sparingly for layout (colspan/rowspan for grid gaps)
-- **CSS**: 
+- **CSS**:
   - Class-based styling for element categories (`.orange`, `.pink`, `.yellow`, etc.)
   - Utility classes for text colors (`.black`, `.blue`, `.dark`)
   - Global reset on `*` selector
   - Centered layout using `text-align: center` on container
 
 ### Element Color Categories
-| Class | Purpose |
-|-------|---------|
-| `.orange` | Nonmetals (H, N, O, C, P, S, Se) |
-| `.pink` | Alkali metals (Li, Na, K, Rb, Cs, Fr) |
-| `.sky` | Alkaline earth metals (Be, Mg, Ca, Sr, Ba, Ra) |
-| `.yellow` | Transition metals |
-| `.brown` | Metalloids (B, Si, Ge, As, Sb, Te, Po) |
-| `.peach` | Halogens (F, Cl, Br, I, At) |
-| `.grey` | Noble gases |
-| `.green` | Post-transition metals |
-| `.chocolate` | Lanthanides & Actinides |
+
+| Class        | Purpose                                        |
+| ------------ | ---------------------------------------------- |
+| `.orange`    | Nonmetals (H, N, O, C, P, S, Se)               |
+| `.pink`      | Alkali metals (Li, Na, K, Rb, Cs, Fr)          |
+| `.sky`       | Alkaline earth metals (Be, Mg, Ca, Sr, Ba, Ra) |
+| `.yellow`    | Transition metals                              |
+| `.brown`     | Metalloids (B, Si, Ge, As, Sb, Te, Po)         |
+| `.peach`     | Halogens (F, Cl, Br, I, At)                    |
+| `.grey`      | Noble gases                                    |
+| `.green`     | Post-transition metals                         |
+| `.chocolate` | Lanthanides & Actinides                        |
 
 ### Responsive Design
+
 - Breakpoint: `546px` max-width
 - Tables scale down to `10%` width on mobile
 - Heading font-size reduces from `500%` to `200%`

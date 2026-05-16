@@ -12,6 +12,11 @@
 - **Font Awesome 7.0.0** - Icon library (via CDN)
 - **Mulish Font** - Google Font for typography
 
+### Deployment
+
+- [GitHub Repo](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/mighty-web)
+- [Live URL](https://sheikh-mohammad.github.io/frontend-ui-projects/mighty-web)
+
 ### Project Structure
 
 ```
@@ -46,21 +51,24 @@ This is a static website with no build process required.
 
 1. **Direct File Open** - Open `index.html` directly in a web browser
 2. **Local Server** (recommended for proper asset loading):
+
    ```bash
    # Using Python
    python -m http.server 8000
-   
+
    # Using Node.js (npx)
    npx serve
-   
+
    # Using PHP
    php -S localhost:8000
    ```
+
 3. Access at `http://localhost:8000` (or the port specified)
 
 ### Dependencies
 
 All dependencies are loaded via CDN:
+
 - Bootstrap 5.3.7 (CSS + JS bundle)
 - Font Awesome 7.0.0
 - Mulish font (Google Fonts)
@@ -72,7 +80,7 @@ No local package installation is required.
 ### Code Style
 
 - **HTML**: Bootstrap utility classes combined with custom CSS classes
-- **CSS**: 
+- **CSS**:
   - Import statement at top for Google Fonts
   - Grouped selectors by section (header, about, services, works)
   - Consistent use of Bootstrap spacing utilities (`mt-`, `mb-`, `py-`, `px-`)
@@ -90,6 +98,7 @@ No local package installation is required.
 ### Image Assets
 
 All images are stored in `assets/images/` and referenced with relative paths. The project uses:
+
 - 1 hero background image
 - 1 about section image
 - 6 portfolio work images
