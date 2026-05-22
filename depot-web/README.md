@@ -1,4 +1,4 @@
-# Depot Web - Project Context
+# Depot Web - Project
 
 ## Project Overview
 

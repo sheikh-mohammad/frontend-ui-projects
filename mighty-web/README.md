@@ -1,4 +1,4 @@
-# Mighty Web - Project Context
+# Mighty Web
 
 ## Project Overview
 

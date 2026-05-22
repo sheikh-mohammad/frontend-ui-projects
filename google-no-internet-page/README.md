@@ -1,4 +1,4 @@
-# Google No Internet Page - Project Context
+# Google No Internet Page
 
 ## Project Overview
 

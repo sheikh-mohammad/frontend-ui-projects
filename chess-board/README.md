@@ -1,4 +1,4 @@
-# Chess Board - Project Context
+# Chess Board - Project Documentation
 
 ## Project Overview
 
@@ -13,7 +13,7 @@ A **static HTML chess board** visualization. This is a simple frontend project t
 
 ### Deployment
 
-- [GitHub Repo:](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/chess-board)
+- [GitHub Repo](https://github.com/sheikh-mohammad/frontend-ui-projects/tree/main/chess-board)
 - [Live URL](https://sheikh-mohammad.github.io/frontend-ui-projects/chess-board/)
 
 ## Directory Structure
